@@ -119,9 +119,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<>();
-                // on below line passing headers.
-                // Make sure to add your authorization.
-                headers.put("Authorization", " Add your authorization here.");
+
+                headers.put("Authorization", "**AUTHORIZATION**");
                 headers.put("Content-Type", "application/x-www-form-urlencoded");
                 return headers;
             }
